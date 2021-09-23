@@ -1,9 +1,10 @@
 import React from 'react'
+import '../App.css'
 
 const Nav = () => {
     return (
         <div>
-            <nav>
+            <nav className="nav">
                 <h1 className="logo">The Planets</h1>
                     <ul className = "nav_right">
                         <li>Mercury</li>
