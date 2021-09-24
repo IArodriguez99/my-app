@@ -207,7 +207,7 @@ const Planets = () => {
 
     return (
         <div className="Planets">
-           <PlanetList planets={planets} />
+          <PlanetList planets={planets.filter((planet) => planet.name === "Mercury")} />
         </div>
     )
 }
