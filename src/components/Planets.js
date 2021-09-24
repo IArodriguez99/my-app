@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import PlanetList from './PlanetList'
+import { useState } from 'react';
+import PlanetList from './PlanetList';
 
 const Planets = () => {
     const [planets, setPlanets] = useState([
@@ -204,7 +204,6 @@ const Planets = () => {
       id: 8
     }
   ]);
-
 
     return (
         <div className="Planets">

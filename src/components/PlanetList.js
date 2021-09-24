@@ -1,5 +1,5 @@
-const PlanetList = ( planets ) => {
-    
+const PlanetList = ({ planets }) => {
+
     return ( 
         <div className="planet_list">
             {planets.map((planet) => (
